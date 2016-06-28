@@ -56,7 +56,132 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+        /* FONTS USED 
+        font-family: 'Lora', serif;             accent text
+        font-family: 'Raleway', sans-serif;     general text        
+        */
 
+        /* COLORS USED 
+        
+        */
+
+
+                /*  MOBILE STYLES MOBILE STYLES MOBILE STYLES  */
+html {
+    width: 100%;
+    height: 100%;   
+}
+    
+body {
+    background: url(../img/bkg-beach-zip.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;  
+    font-size: 16px;
+    color: #40332b;
+    padding: 0 1em; 
+
+}
+                /* HEADER STYLES*/
+    header .header-flex-container {
+        font-size: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        height: auto;
+    }
+
+            h1 {
+                font-size: 2.5em;
+                flex: center;
+                width: 100%;
+
+            }
+
+            h3 {
+                font-size: 1.5em;
+                flex: center;
+                width: 100%;
+
+            }
+
+                .header-span {
+                    font-family: 'Lora', serif;
+                    font-size: 1.8em;
+                    color: white;
+
+                }
+
+
+                /* MAIN SECTION STYLES*/
+
+    .main-section-flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        
+        }
+
+    }
+        nav .main-flex-container{
+            flex: center;
+            order: 2;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+        }
+
+        aside .aside-flex-container {
+            flex: center;
+            order: 1;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+        }
+        
+        nav .nav-flex-container {
+            flex: center;
+            order: 3;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+
+        }
+
+
+                /* FOOTER STYLES*/
+    footer .footer-flex-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    }
+
+        footer .footer-logo img {
+            flex: center;
+            width: 100%;
+        }
 
 
 
